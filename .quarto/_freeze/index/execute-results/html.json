@@ -1,0 +1,15 @@
+{
+  "hash": "def0b3779195b25acf24843d48c010ff",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"test-quarto-live-1\"\nengine: knitr\nformat: live-html\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n```{webr}\nfit = lm(mpg ~ am, data = mtcars)\nsummary(fit)\nplot(fit)\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
